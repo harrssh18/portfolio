@@ -1,0 +1,65 @@
+{% extends 'core/base.html' %}
+
+{% block content %}
+<div class="container mt-5 mx-3">
+	<h1 class="text-warning mb-5 border-bottom"> 
+		Contact</h1>
+	<div class="row text-white mb-5">
+		<p class="mx-auto mb-5">
+			Do you have any questions? Please do not hesitate to contact. I Will come back to you within a matter of hourse to help you.
+		</p>
+		<div class="col-sm-9 mb-5">
+			<form class="row g-3">
+  
+  <div class="col-md-6">
+    <label for="name1" class="form-label">Your Name</label>
+    <input type="text" class="form-control" id="name1">
+  </div>
+  <div class="col-md-6">
+    <label for="inputEmail4" class="form-label">Your Email</label>
+    <input type="email" class="form-control" id="inputEmail4">
+  </div>
+
+ 
+  <div class="col-12">
+    <label for="subject1" class="form-label">Subject</label>
+    <input type="text" class="form-control" id="subject1">
+  </div>
+  <div class="col-12">
+    <label for="message1" class="form-label">Message</label>
+    <input type="text" class="form-control" id="message1" >
+  </div>
+<br>
+
+  <div class="col-12">
+    <div class="form-check mb-5">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        All Done
+      </label>
+    </div>
+  </div>
+  <div class="col-12">
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </div>
+</form>
+</div>
+<div class="col-sm-3 text-center">
+	<ul class="list-unstyled">
+		<li>
+			<i class="far fa-envelope"></i>
+			<p>harshdubey8225@gmail.com</p>
+		</li>
+		<li><br>
+			<i class="fas fa-map-marker-alt"></i>
+			<p>Indore, India</p>
+		</li>
+	</ul>
+	
+</div>
+	</div>
+	
+
+</div>
+
+{% endblock content %}
